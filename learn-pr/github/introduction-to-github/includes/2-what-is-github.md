@@ -80,94 +80,109 @@ Follow these steps on GitHub.com.
 
     :::image type="content" source="../media/2-repo-name-text-box.png" alt-text="An image of the text box of the repository name highlighted." border="false":::
 
-4. Choose a repository visibility.
+4. Choose a repository visibility:
+    - **Public repositories** are visible to anyone on the internet.
+    - **Private repositories** are visible only to you and people you explicitly grant access to (plus certain organization members, if applicable). 
 
-    - **Public repositories** are accessible to everyone on the internet.
-
-    - **Private repositories** are only accessible to you, people you explicitly share access with, and, for organization repositories, certain organization members.
-
-1. Select **Create repository** and congratulations! You just created a repository!
+5. Select **Create repository** and congratulations! You just created a repository!
 
 ### How to clone a repository
 
-Cloning a repository allows you to create a local copy of a repository on your computer. This is useful for making changes locally and syncing them back to the remote repository.
+In many cases, non-technical users do **not** need to clone a repository.
 
-1. On GitHub.com, navigate to the main page of the repository you want to clone.
-1. Above the list of files, click the **Code** button.
+**What “clone” means:**  
+Cloning creates a full copy of a repository on your computer.
+
+**Why some people use it:**  
+Technical contributors (such as developers) often clone repositories so they can use local tools, run tests, or make larger changes before uploading updates back to GitHub.
+
+**What is a terminal?**  
+A terminal is a text-based window used to run commands on your computer. It is a common tool for developers, but most non-technical contributors won’t need to use it for everyday GitHub tasks.
+
+**For non-technical contributors:**  
+You can usually review files, leave comments, open issues, and suggest many changes directly on GitHub.com—no terminal required.
+
+**If your role does require cloning**, here are the standard steps:
+
+1. On GitHub.com, go to the repository’s main page.
+2. Select **Code** above the file list.
 
     :::image type="content" source="../media/2-selecting-code-button.png" alt-text="Screenshot of the Code button dropdown menu with clone options." border="false":::
 
-1. Copy the URL for the repository using the HTTPS, SSH, or GitHub CLI option.
-1. Open your terminal and navigate to the directory where you want to clone the repository.
-1. Run the following command, replacing `<repository-url>` with the URL you copied:
+3. Copy the repository URL (HTTPS, SSH, or GitHub CLI option).
+4. Open a terminal and move to the folder where you want the repository copy.
+5. Run:
 
-    ```bash
-    git clone <repository-url>
-    ```
+   ```bash
+   git clone <repository-url>
+   ```
 
-1. Once the cloning process is complete, navigate into the repository folder:
+6. Move into the repository folder:
 
-    ```bash
-    cd <repository-name>
-    ```
+   ```bash
+   cd <repository-name>
+   ```
 
-Congratulations! You now have a local copy of the repository.
-
-Next up, let’s review how to add files to your repository.
+You now have a local copy of the repository on your computer.
 
 ### How to add a file to your repository
 
-Files in GitHub can do a handful of things, but the main purpose of files is to store data and information about your project. To add a file to a repository, you need at least **Write** access.
+Files in GitHub store project information (documentation, configuration, assets, and more). To add files, you need at least **Write** access.
 
 Let’s review how to add a file to your repository.
 
-1. On GitHub.com, navigate to the main page of the repository.
-1. In your repository, browse to the folder where you want to create a file by selecting the **creating a new file** link or **uploading an existing file**.
-1. Once added, above the list of files select the **Add file ᐁ** drop-down menu. Then select **Create new file**.
+1. On GitHub.com, open the repository's main page.
+2. Navigate to the folder where you want the new file, or choose to upload an existing file.
+3. Select the **Add file ᐁ** drop-down menu, then choose **Create new file**.
 
     :::image type="content" source="../media/add-file-options.png" alt-text="A screenshot of the option to add a file to your new repository highlighted in red with the add file button towards the right of the screen." border="false":::
 
-1. In the file name field, type the name and extension for the file. To create subdirectories, type the **/** directory separator.
-1. In the file contents text box, type **content** for the file.
-1. To review the new content, above the file contents, select **Preview**.
+4. Enter a file name (including extension). Use / to create subfolders if needed.
+5. Enter the file content.
+6. To review formatting and output, select Preview above the editor.
 
     :::image type="content" source="../media/2-preview-option-in-a-file.png" alt-text="Screenshot showing a yml file with the preview button highlighted in the top left." border="false":::
 
-1. Select **Commit changes**.
-1. In the **Commit message** field, type a short and meaningful commit message that describes the change you made to the file. You can attribute the commit to more than one author in the commit message.
+7. Select **Commit changes**.
 
-1. Below the **Commit message** fields, decide whether to add your commit to the current branch or to a new branch. If your current branch is the default branch, you should choose to create a new branch for your commit, and then create a pull request.
+8. Add a short commit message describing what changed.
+
+9. Choose whether to commit directly to the current branch or create a new branch. If you are on the default branch, best practice is to create a new branch and then open a pull request. We will go over Branches in depth later in this module. 
 
      :::image type="content" source="../media/2-create-a-new-branch.png" alt-text="Screenshot showing creating a new branch from a commit option select with the textbox of the new branch below it." border="false":::
 
-1. Select **Commit changes** or **Propose changes**.
+10. Select **Commit changes** or **Propose changes**.
 
 Congratulations, you just created a new file in your repository! You have also created a new branch and made a commit.
 
 Before we review branches and commits in the next unit, let’s quickly review gists, wikis, and GitHub pages because they're similar to repositories.
 
 ### What are Gists?
-Gists are a feature of GitHub that allows users to share code snippets, notes, or other small pieces of information in a lightweight and convenient way. They are essentially mini Git repositories, which means you can fork, clone, and version-control them just like a full repository. Gists are particularly useful for sharing quick solutions, configuration files, or examples without the need to create a full repository.
+
+Gists are a lightweight way to share small pieces of content—such as short code snippets, notes, examples, or configuration text—without creating a full repository.
+
+You can think of a gist as a mini repository with version history. That means changes are tracked over time, and gists can be copied or downloaded like regular repositories.
 
 #### Key Features of Gists:
-1. **Public and Secret Gists**:
-   - **Public Gists**: These are visible to everyone and can be discovered through GitHub's search functionality. They are ideal for sharing code snippets or solutions that you want to make available to the broader community.
-   - **Secret Gists**: These are not searchable or publicly listed, but they are not entirely private. Anyone with the URL can access them. They are useful for sharing code with a limited audience, such as collaborators or friends.
+1. **Public and Secret Gists**
+   - **Public Gists** can be discovered by others.
+   - **Secret Gists** are not publicly listed, but anyone with the link can access them.
 
-2. **Version control**:
-   - Every change made to a gist is tracked, allowing you to view the history of edits. This makes it easy to revert to a previous version or see how the snippet has evolved over time.
+2. **Version history**
+   - Each edit is saved, so you can review or restore previous versions.
 
-3. **Forking and cloning**:
-   - Like repositories, gists can be forked and cloned. This allows others to build upon your work or adapt it to their needs.
+3. **Forking and cloning**
+   - Others can copy your gist and adapt it for their own use.
 
-4. **Embedding**:
-   - Gists can be embedded into websites or blogs, making them a great tool for sharing code examples in tutorials or documentation.
+4. **Embedding**
+   - Gists can be embedded in websites, blogs, and documentation.
+     
+5. **Markdown support**
+   - You can include headings, links, images, and formatted text for context.
 
-5. **Markdown support**:
-   - Gists support Markdown formatting, which means you can include rich text, headings, links, and even images alongside your code. This is particularly useful for adding context or explanations to your snippets.
+7. **Lightweight Collaboration**
+   - Teams can share, comment on, and iterate quickly.
 
-6. **Collaboration**:
-   - While gists are typically used for individual snippets, they can also be shared and collaborated on by multiple users. Forking and commenting on gists enable lightweight collaboration.
 
 #### Use cases for Gists:
 - Sharing quick code examples or solutions.
