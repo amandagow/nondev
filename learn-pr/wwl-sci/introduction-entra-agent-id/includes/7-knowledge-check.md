@@ -1,1 +1,0 @@
-Pick the best answer to the questions.
