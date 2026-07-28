@@ -1,1 +1,0 @@
-In this module, you learned how GitHub Actions for Azure automates build and deployment workflows. You explored the types of service principals and compared OpenID Connect with client-secret authentication. You also configured a service principal and Azure role assignment for a GitHub workflow. Finally, you used GitHub Actions for Azure to publish a web app to Azure App Service.

@@ -1,9 +1,0 @@
-In this exercise, learn how to query performance metrics using the Query Store in Azure Database for PostgreSQL.
-
-> [!NOTE]
->
-> You need your own Azure subscription to complete this exercise. If you don't have an Azure subscription, you can create an [Azure free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
-
-Launch the exercise and follow the instructions.
-
-[![Button to launch exercise.](../media/launch-exercise.png)](https://go.microsoft.com/fwlink/?linkid=2269315&clcid=0x409)

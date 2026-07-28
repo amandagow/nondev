@@ -1,1 +1,0 @@
-In this module, you learned to configure Azure Private Endpoint for secure connections to Azure SQL Server, understand network architecture, validate connections, and enhance compliance and data protection within your virtual network.

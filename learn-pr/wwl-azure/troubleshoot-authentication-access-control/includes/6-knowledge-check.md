@@ -1,1 +1,0 @@
-Choose the best answer for each of the questions below. 

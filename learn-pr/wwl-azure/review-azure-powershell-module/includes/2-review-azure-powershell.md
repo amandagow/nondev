@@ -1,5 +1,0 @@
-Azure PowerShell is a module that you add to Windows PowerShell or PowerShell 7 to let you connect to your Azure subscription and manage resources. It provides a set of cmdlets that you can use to manage and administer Azure resources directly from the PowerShell command line. Azure PowerShell makes it easier to interact with Azure, but also provides powerful features for automation. Azure PowerShell works with PowerShell 7.2 and later on all platforms, and is also compatible with Windows PowerShell 5.1.
-
-Azure PowerShell requires PowerShell to function. PowerShell provides services such as the shell window and command parsing. The Azure PowerShell module adds the Azure-specific commands.
-
-You should use Azure PowerShell when you want to build automated tools that use the Azure Resource Manager model. You can use it in your browser with Azure Cloud Shell, or install it on your local Windows, Mac, or Linux machine. In both cases, you have two modes to choose from. You can use Azure PowerShell in interactive mode, in which you manually issue one command at a time, or in scripting mode, where you run a script that consists of multiple commands.

@@ -1,3 +1,0 @@
-When a user requests access to a virtual machine, Microsoft Defender for Cloud checks that the user has Azure role-based access control (Azure RBAC) permissions for that virtual machine. If the request is approved, Microsoft Defender for Cloud configures the NSGs and Azure Firewall to allow inbound traffic to the selected ports from the relevant IP address (or range), for the amount of time that was specified. After the time has expired, Microsoft Defender for Cloud restores the NSGs to their previous states. Connections that are already established aren't interrupted.
-
-:::image border="false" type="content" source="../media/jit-logic-flow-01790dbc.png" alt-text="Diagram showing Just-in-time (J I T) virtual machine logic flow.":::
