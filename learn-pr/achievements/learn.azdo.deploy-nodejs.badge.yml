@@ -1,7 +1,0 @@
-### YamlMime:AchievementDetail
-achievementUid: learn.azdo.deploy-nodejs.badge
-metadata:
-  title: >-
-    Microsoft Badge: Guided project - Automate Node.js deployments with Azure
-    Pipelines was issued by Microsoft
-socialImageUrl: /training/achievements/azure-devops/deploy-nodejs-social.png
