@@ -123,14 +123,6 @@ Git flow uses multiple branch types for different purposes:
 - **release/***: final preparation before release
 - **hotfix/***: urgent fixes to production issues
 
-### How the Git flow Process Works
-
-1. Teams create **feature branches** from `develop` to build new functionality.
-2. When preparing a release, they create a **release branch** from `develop`. 
-3. Final fixes can be made in the release branch.
-4. The release branch is merged into `master` and tagged with a version. 
-5. The release branch is also merged back into `develop` to keep branches aligned.
-6. Urgent production issues are fixed in a **hotfix branch** from `master`, then merged into both `master` and `develop`.
 
 ### When to Use Git flow
 
