@@ -1,1 +1,0 @@
-In this module, you learned the three most common Autonomous AI brain design patterns: advance perception, functional decomposition, and strategy decomposition. In addition, you learned how to select brain design patterns to design modular intelligent systems for your solution application.
