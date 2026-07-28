@@ -1,5 +1,0 @@
-Imagine your organization collects raw sales transactions, clickstream events, and product catalog updates. All of this data arrives in different formats at different rates. Without a plan for organizing this data, analysts spend more time cleaning than analyzing, and reports that rely on inconsistent data erode confidence in the numbers.
-
-The medallion architecture solves this problem. By organizing your lakehouse into three progressive layers (bronze, silver, and gold), you create a clear, reliable path from raw ingestion to analytics-ready data. It's an industry-standard pattern that maps naturally onto the Delta Lake-based Fabric lakehouse.
-
-In this module, you explore the three medallion layers and how to implement the architecture in a Fabric lakehouse. You also learn how to query and report on gold layer data, apply security, and govern your lakehouse.

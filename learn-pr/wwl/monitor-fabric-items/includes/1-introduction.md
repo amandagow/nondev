@@ -1,7 +1,0 @@
-Data engineering teams rely on scheduled pipelines, dataflows, and Spark notebooks to move and transform data across a Microsoft Fabric environment. When these activities fail — or silently slow down — the downstream effects can be significant: reports show stale data, analysts make decisions on incomplete information, and stakeholders lose confidence in the platform.
-
-Imagine you're a data engineer at a retail company. Every morning, a Dataflow Gen2 loads product data from an external source into a lakehouse, and a Spark notebook runs transformations to prepare that data for reporting. One day the dataflow fails due to a schema change at the source, but nobody notices until an analyst reports that the product catalog is missing new items. Without a monitoring strategy, these failures go undetected.
-
-In this module, you learn how to use the monitoring hub in Microsoft Fabric to track the status of your activities, investigate failures, and view historical run data. You also learn how Activator can automatically trigger actions — like sending an alert, posting a Teams message, or running a notebook — when Fabric job events occur, such as a pipeline failure or a notebook error. Finally, you get hands-on experience using the monitoring hub to observe dataflow and notebook activity in a Fabric workspace.
-
-By the end of this module, you can identify and investigate activity failures using the monitoring hub, and describe how Activator automates responses to Fabric job events.
