@@ -1,5 +1,0 @@
-Organizations large and small have started to realize just how crucial system and application reliability is to their business. They have also learned the difficulty of maintaining that reliability, while iterating at the speed demanded by the marketplace. 
-
-Site Reliability Engineering (SRE) is a proven approach to this challenge. This module introduces you to the principles and practices of SRE. If you’ve had any operations experience (as a sysadmin, IT pro, DevOps practitioner, etc.) or even the interest, SRE proves to be a fascinating subject.
-
-By the end of this module, you should have a good understanding of what SRE is and why it matters. In it, we cover the core principles of SRE and some of the practices that help implement those principles. Along the way, we give you the knowledge you need to talk to other people about where SRE came from and how it relates to other operations practices like DevOps. Finally, we end with some suggestions on how you can get started with this valuable operations practice.
