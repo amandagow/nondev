@@ -8,67 +8,76 @@ In this unit, we'll cover:
 
 ## Managing notifications and subscriptions
 
-Notifications help you stay up to date on important activity across your repositories and teams. Managing your subscriptions ensures you only get updates for the work that matters most to you.
-
-You can subscribe to notifications for:
+Notifications help you stay informed about work that needs your attention. Subscription settings help you avoid information overload by limiting alerts to what is relevant to your role.
+You can receive notificationsfor:
 
 - Specific issues, pull requests, or gists
-- Repository activity like issues, pull requests, releases, or discussions
-- Workflow statuses for repositories using GitHub Actions
-- All activity across a repository
+- Repository activity (issues, pull requests, releases, or discussions)
+- Workflow results (for repositories using GitHub Actions)
+- All activity in a repository
 
-You're automatically subscribed when you interact with conversations (commenting, opening an issue, being assigned), but you can also manually manage subscriptions as needed.
+You are often automatically subscribed when you participate (for example: commenting, opening an issue, or being assigned work). You can also manage subscriptions manually.
 
-If you're no longer interested in receiving updates, you can unsubscribe, unwatch, or customize the types of notifications you receive.
+If updates are no longer relevant, you can unsubscribe, unwatch, or adjust notification types.
+
+Good notification settings help you:
+- respond faster to requests
+- stay current on key decisions
+- reduce noise from unrelated activity
 
 ## Subscribing to threads and finding threads where you're mentioned
 
-You can also access detailed notification settings by navigating to your GitHub user settings and choosing 'Notifications' to configure delivery channels such as email, web, and mobile.
+You can manage detailed notification settings in your GitHub account under Settings → Notifications.
+This includes delivery channels such as email, web, and mobile.
 
-If you want to keep an eye on issues or pull requests that mention a specific user, use the search qualifier *mentions:* followed by the username.
+If you want updates on a specific conversation (issue, pull request, or discussion), you can subscribe even if you were not part of it initially.
 
-To make sure you get updates about a particular thread (like an issue or pull request), you can subscribe to it—even if you weren’t originally part of the conversation.
+To subscribe to a thread:
+- Select **Subscribe** on the right sidebar of an issue, pull request, or discussion.
 
-You can subscribe to a thread by:
-
-- Selecting **Subscribe** on the right-hand sidebar of an issue, pull request, or discussion.
-
-To find conversations where you're mentioned:
-
-- Use the search qualifier `mentions:<username>` in the GitHub search bar to locate issues and pull requests where you were @mentioned.
-
+To find where you're mentioned:
+- Use `mentions:<username>` in the GitHub search bar.
+- 
 This way, you won’t miss any conversations that need your attention.
 
 ### Filter notifications
 
-GitHub allows you to filter notifications using watch settings:
+GitHub provides watch-level options per repository:
 
-- **Watching**: Receive notifications for all activity.
-- **Not watching**: Receive notifications only when you're participating or @mentioned.
-- **Ignore**: No notifications at all for a repository.
-- **Custom**: Fine-tune what types of activity (like pull requests, issues, or discussions) trigger notifications.
+- **Watching**: Notify me about all activity.
+- **Not watching**: Notify me only when I participating or I'm @mentioned.
+- **Ignore**: Do not notify me.
+- **Custom**: Choose which activity types trigger alerts (for example: pull requests, issues, discussions).
 
-You can manage watch settings by selecting **Watch** at the top of a repository page.
+You can change these settings from the **Watch** menu at the top of a repository.
 
 ### Configure notification settings
 
-You can configure where you receive notifications:
+You can choose where notifications are delivered:
 
-- **Email**: Notifications delivered to your registered email address.
-- **Web**: Notifications viewed directly in your GitHub dashboard.
-- **Mobile**: Push notifications using the GitHub mobile app.
-- **Custom notifications**: Configure specific event types for different channels.
+- **Email**: Sent to your registered email.
+- **Web**: Visible in GitHub notifications
+- **Mobile**: Push notifications in the GitHub mobile app.
+- **Custom notifications**: Different event types for different channels.
 
-Notification settings are managed under your GitHub account settings in **Notifications**.
+These are managed under Settings → Notifications.
 
 ## What are GitHub Pages?
+GitHub Pages lets you publish a public website directly from a GitHub repository.
 
-Now let’s take a look at GitHub Pages. You can use GitHub Pages to publicize and host a website about yourself, your organization, or your project directly from a repository on GitHub.com.
+This is useful for:
+- team documentation
+- project overviews
+- public status or information pages
+- personal or organization profiles
 
-GitHub Pages is a static site-hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub. Optionally, you can run the files through a build process and publish a website. You can specify a source branch and folder (e.g., `/docs`) for your Pages site, and GitHub will host the content publicly.
+GitHub Pages hosts static content (such as HTML, CSS, and JavaScript files).
 
-Next, you'll complete a hands-on activity to reinforce key GitHub skills. In the next exercise, you'll:
+You can choose which branch and folder (for example, /docs) should be published.
 
+You can support public communication and documentation using content in GitHub, even if you are not writing application code.
+
+Next, you’ll complete a hands-on activity to reinforce key GitHub skills. In that exercise, you will:
 - Create a new repository.
 - Create a new branch.
 - Commit a file.
