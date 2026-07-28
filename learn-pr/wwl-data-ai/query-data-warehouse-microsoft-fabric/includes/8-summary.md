@@ -1,3 +1,0 @@
-In this module, you explored the tools available for querying a data warehouse in Microsoft Fabric. You used the SQL query editor to write and run T-SQL queries, explored the visual query editor as a no-code alternative, and learned how to connect to a data warehouse from SQL Server Management Studio (SSMS) using Microsoft Entra ID authentication.
-
-Each tool serves a different need — the SQL query editor gives you full control over your queries, the visual query editor makes it easy to build queries without writing code, and client tools like SSMS provide a familiar environment for database professionals.
