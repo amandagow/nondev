@@ -184,29 +184,30 @@ You can think of a gist as a mini repository with version history. That means ch
    - Teams can share, comment on, and iterate quickly.
 
 
-#### Use cases for Gists:
-- Sharing quick code examples or solutions.
-- Storing configuration files or scripts for personal use.
-- Creating templates for commonly used code patterns.
+#### Commons business use for gists:
+- Sharing short examples or reusable templates.
+- Storing non-sensitive notes or reference snippets.
+- Sharing troubleshooting output with teammates.
 - Sharing error logs or debugging information with others.
-- Embedding code snippets in blogs, forums, or documentation.
+- Embedding examples in internal documentation.
 
 > [!IMPORTANT]
-> **Never use gists to store sensitive or confidential data, such as passwords, secrets, or API keys—even in scripts or config files.**  
-> Gists are not fully private: even secret gists can be accessed by anyone with the link. Always review your content carefully before sharing.
+> **Do not store sensitive or confidential data in gists**  
+> For example: passwords, secrets, API keys, or private business information.
+> Secret gists are not fully private- anyone with the link can view them.
 
 #### Limitations of Gists:
-- Gists are not entirely private, even if marked as secret. Anyone with the URL can access them, so they should not be used for sensitive or confidential information.
-- They are best suited for small snippets or single files. For larger projects or multi-file structures, a full repository is more appropriate.
-
-To learn more about how to create and manage gists, refer to the GitHub documentation in the Resources section of this module or visit the [GitHub Gists documentation](https://docs.github.com/en/github/writing-on-github/creating-gists).
+- They are not fully private
+- They are best for short, simple content- not large, multi-file projects
+  
+Learn more in [GitHub Gists documentation](https://docs.github.com/en/github/writing-on-github/creating-gists).
 
 ### Forking and cloning Gists
 
 You can fork a gist to create a copy of someone else's gist in your account.
 
-1. Navigate to the gist you want to fork.
-2. Select **Fork** at the top-right of the gist page.
+1. Open the gist.
+2. Select **Fork** in the top-right of the gist page.
 
 To clone a gist locally:
 
@@ -214,15 +215,14 @@ To clone a gist locally:
 git clone https://gist.github.com/your-gist-id.git
 ```
 
-To learn more about gists, see the linked article in our Resources section at the end of this module titled *Creating Gists*.
 
 ---
 
 ### What are wikis?
 
-Every repository on GitHub.com comes equipped with a section for hosting documentation, called a wiki. You can use your repository's wiki to share long-form content about your project, such as how to use it, how you designed it, or its core principles. While a README file quickly tells what your project can do, you can use a wiki to provide additional documentation.
+Each GitHub repository includes a wiki area for longer-form documentation. A README gives a quick overview; a wiki can provide deeper guidance such as usage instructions, design decisions, policies, or team standards.
 
-It’s worth a reminder that if your repository is private, only people who have at least read access to your repository will have access to your wiki.
+If a repository is private, only users with at least read access can view its wiki.
 
 #### Creating, editing, and deleting wiki pages
 
@@ -232,35 +232,33 @@ You can use the GitHub wiki to create and manage documentation for your project.
 
 1. Navigate to the repository.
 2. Select the **Wiki** tab.
-3. Select **Create the first page** if no pages exist, or **New Page** to add a page.
+3. Select **Create the first page** (or **New Page** if pages already exist).
 4. Enter a title and content, then select **Save Page**.
 
 **To edit a wiki page:**
 
 1. Navigate to the wiki page you want to edit.
-2. Select **Edit** at the top-right.
+2. Select **Edit** in the top-right.
 3. Make changes and select **Save Page**.
 
 **To delete a wiki page:**
 
-- Deleting a wiki page requires using Git. Clone the wiki repository, remove the file, and push the change.
+- A wiki page requires using Git. Clone the wiki repository, remove the file, and push the change.
 
 Learn more about managing wikis in [GitHub Docs - Adding or editing wiki pages](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages).
 
 
 ### What are Feature Previews?
 
-Feature Previews allow you to try out experimental features on GitHub before they are officially released. These previews give you early access to new functionality and allow you to provide feedback to help shape the final product.
+Feature Previews let you try experimental GitHub capabilities before general release. They provide early access and a chance to give feedback. 
 
-To enable or disable a feature preview:
+To enable or disable a preview feature:
 
-1. Navigate to your GitHub account by selecting your profile picture in the top-right corner of GitHub.com.
-1. Select **Feature preview** from the drop-down menu.
-1. Browse the list of available previews and toggle the features you want to try.
+1. Select your profile picture in the top-right corner of GitHub.com.
+1. Select **Feature preview** from the menu.
+1. Browse available previews and toggle the features on or off.
 
-Feature Previews are a great way to stay ahead of the curve and explore new tools that can enhance your GitHub experience.
+Feature previews are useful for exploring upcoming improvements and staying current with platform changes.
 
 > [!TIP]
-> GitHub frequently adds new experimental features for users to explore, so keep an eye on the **Feature review** to discover new tools and enhancements.
-
-
+> GitHub regularly introduces new experimental features, so check **Feature preview** periodically for new options.
